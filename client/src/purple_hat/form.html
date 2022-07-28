@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <link rel="icon" href="https://cdn.glitch.global/c6f964c0-1500-4649-8e07-5d6a0ae4f4b1/Screen_Shot_2022-03-26_at_4.35.49_PM-removebg-preview.png?v=1648327000189" />
+    <title> Quiz | Purple Hat Project</title>
+    <style>
+      form {
+        /* Center the form on the page */
+        margin: 0 auto;
+        width: 400px;
+        /* Form outline */
+        padding: 3em;
+        border: 2px solid #CCC;
+        border-radius: 2em;
+      }
+  
+      h1 {
+        text-align:center;
+      }
+    </style>
+    
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  </head>
+  
+  <body>
+     <h1 class="title">
+          <img
+            class="logo"
+            href="index.html"
+            src="https://cdn.glitch.global/c6f964c0-1500-4649-8e07-5d6a0ae4f4b1/Screen_Shot_2022-03-26_at_4.35.49_PM-removebg-preview.png?v=1648327000189"
+          />
+          Purple Hat Project
+      
+        </h1>
+    
+       <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <div class="topnav" id="myTopnav">
+          <a href="index.html"> Home </a>
+          <a href="getinvolved.html">Get Involved</a>
+
+          <!--           </div> -->
+          <a href="about.html">About Us</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+
+    <h2 class = "quizHeader">
+      Find Out How Much You Know About Shaken Baby Syndrome
+    </h2>
+    
+    <!--   This will b taken care of   -->
+    
+    <form id="styleQuiz">
+     <div class="question">
+        <label> Question 1: Around how many babies are treated for Shaken Baby Syndrome in the U.S. this past year?</label> <br>
+        <input type="radio" name="question1">1,500
+        <input type="radio" name="question1">750
+        <input type="radio" name="question1">1,000
+        <input type="radio" name="question1" id="answer1">1,300 
+    </div>
+<br><br>
+    <div class="question">
+        <label> Question 2: Shaken Baby Syndrome is the leading cause of physical child abuse deaths in the U.S. </label> <br>
+        <input type="radio" name="question2" id="answer2">True <br>
+        <input type="radio" name="question2">False <br>
+    </div>
+
+<br><br>
+    <div class="question">
+        <label> Question 3: Is Shaken Baby Syndrome preventable?</label> <br>
+        <input type="radio" name="question3" id="answer3">Yes
+        <input type="radio" name="question3">No
+    </div>
+
+<br><br>
+    <div class="question">
+        <label> Question 4: What percent of surviving victims suffer lifelong effects?</label> <br>
+        <input type="radio" name="question4">75%
+        <input type="radio" name="question4">63%
+        <input type="radio" name="question4">50%
+        <input type="radio" name="question4" id="answer4">80%
+    </div>
+
+<br><br>
+    <div class="question">
+        <label> Question 5: What is the number #1 trigger for caregivers shaking a baby?</label> <br>
+        <input type="radio" name="question5">Laughing <br>
+        <input type="radio" name="question5">Smiling <br>
+        <input type="radio" name="question5" id="answer5">Crying <br>
+        <input type="radio" name="question5">Hiccupping <br>
+    </div>
+
+      <br>
+    <button id = "submitBtn" type="submit" class="btn"> Submit</button>
+
+    <p id="show"></p>
+      
+     
+      
+    </form>
+    
+     <div style = "text-align:center"><a class="active" href="getinvolved.html">
+          <button id="quizButton" class = "btn-primary" href="getinvolved.html">Discover Ways To Get Involved
+          </button></a>
+        
+      </div> 
+    
+    
+    
+  
+  </body>
+</html>

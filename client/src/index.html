@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://cdn.glitch.global/c6f964c0-1500-4649-8e07-5d6a0ae4f4b1/Screen_Shot_2022-03-26_at_4.35.49_PM-removebg-preview.png?v=1648327000189" />
+
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <title>Home | Purple Hat Project</title> 
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta
+      name="description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Purple Hat Project" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./carousel.css" />
+    
+    
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    <script src="https://code.iconify.design/2/2.2.0/iconify.min.js"></script>
+  </head>
+  <body>
+    <!--
+      This is the body of the page
+      Look at the elements and see how they appear in the rendered page on the right
+      Each element is defined using tags, with < and > indicating where each one opens and closes
+      There are elements for sections of the page, images, text, and more
+      The elements include attributes referenced in the CSS for the page style
+    -->
+
+    <!-- The wrapper and content divs set margins and positioning -->
+    <div class="wrapper">
+      <div class="content" role="main">
+        <!-- This is the start of content for our page -->
+
+        <!--         <img
+          src="https://cdn.glitch.global/c6f964c0-1500-4649-8e07-5d6a0ae4f4b1/Screen_Shot_2022-03-26_at_2.24.27_PM-removebg-preview.png?v=1648319197799"
+          class="illustration logo"
+          alt="Editor illustration"
+          title="Click the image!"
+        />
+        
+        <h1 class="title">Purple Hat Project</h1> -->
+
+        <h1 class="title">
+          <img
+            class="logo"
+            href="index.html"
+            src="https://cdn.glitch.global/c6f964c0-1500-4649-8e07-5d6a0ae4f4b1/Screen_Shot_2022-03-26_at_4.35.49_PM-removebg-preview.png?v=1648327000189"
+          />
+          Purple Hat Project
+          <!--              <div class="stars">
+                ***************************************************
+            
+             </div>            -->
+        </h1> 
+
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <div class="topnav" id="myTopnav">
+          <a href="index.html"> Home </a>
+          <a href="getinvolved.html">Get Involved</a>
+
+          <!--           </div> -->
+          <a href="faq.html">FAQ</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+
+        <div>
+          <!-- Slideshow container : Carousel HTML-->
+          <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+<!--               <div class="numbertext">1 / 3</div> -->
+              <img
+                src="https://cdn.glitch.global/c6f964c0-1500-4649-8e07-5d6a0ae4f4b1/Screen%20Shot%202022-03-26%20at%202.59.57%20PM.png?v=1648321210472"
+                style="width: 100%"
+              />
+              <div class="text">
+                Cute maching purple hats to spread awareness for Shaken Baby
+                Syndrome! #knitspiration
+              </div>
+            </div>
+
+            <div class="mySlides fade">
+<!--               <div class="numbertext">2 / 3</div> -->
+              <img
+                src="https://cdn.glitch.global/c6f964c0-1500-4649-8e07-5d6a0ae4f4b1/Screen%20Shot%202022-03-26%20at%203.53.35%20PM.png?v=1648324423730"
+                style="width: 100%"
+              />
+              <div class="text">
+                ONE THOUSAND HATS!! We are so excited to announce that we
+                dropped off 1,004 hats to PCANJ this morning.
+              </div>
+            </div>
+
+            <div class="mySlides fade">
+<!--               <div class="numbertext">3 / 3</div> -->
+              <img
+                src="https://cdn.glitch.global/c6f964c0-1500-4649-8e07-5d6a0ae4f4b1/IMG_0099.jpg?v=1648331946602"
+                style="width: 100%"
+              />
+              <div class="text">
+                Dropped off some yarn to @fhslooming to continue the Purple Hat 
+                Project!! A huge thank you to @pcanj and @sv_sarah_ for the wonderful 
+                donation - can’t wait to see this yarn turned into hats soon!! 😁💜
+              </div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br />
+
+          <!-- The dots/circles -->
+          <div style="text-align: center">
+            <span class="iconify do" data-icon="icon-park-outline:woolen-hat" style="color:#8800c7;" onclick="currentSlide(1)"></span>
+            <span class="iconify do" data-icon="icon-park-outline:woolen-hat" style="color:#8800c7;"  onclick="currentSlide(2)"></span>
+            <span class="iconify do" data-icon="icon-park-outline:woolen-hat" style="color:#8800c7;"  onclick="currentSlide(3)"></span>
+          </div>
+          <script src="carousel.js"></script>
+  
+        </div>
+      </div>
+      
+      <section id="aboutus" class="aboutus">
+    <div class="container">
+
+     
+
+      <div class="row">
+        <div class="col-lg-6">
+  
+          <div class="aboutus-item pb-0">
+            <h2 class="lef">What Do We Do</h2>
+            <p><em><h3>
+              The National Center for Shaken Baby Syndrome partners with organizations throughout the country to collect and distribute purple infant hats to raise awareness and educate others on the dangers of Shaken Baby Syndrome.
+              </h3>  </em></p>
+            <p>
+            <ul class="aboutus-in">
+              <li class= "mission"> OUR MISSION:
+                </li>
+                <p>
+                  We will be focusing on Prevent Child Abuse New Jersey, an organization based in New Brunswick, NJ, that collects hats through the program called “Click for Babies.”
+                </p>
+
+              
+              <li class= "mission">OUR GOAL:
+                </li>
+                 <p>
+                 To make purple infant hats using various methods - looming, knitting and crocheting- and donate them to PCA NJ for the 2022 Campaign
+                </p>
+
+            </ul>
+            </p>
+        </div>
+          
+        </div>
+      </div>
+
+    </div>
+  </section>
+    
+    <br> <br> 
+    
+
+
+
+
+
+
+<!-- form portion -->
+ 
+<form class="w3-container w3-card-4" action="/contact" method="POST" style="margin-top: 20px; width: 75%;">
+  <h2 class="formCol">Contact Info</h2>
+  <p>Sign up for our mailing list and GroupMe to find out about our upcoming events and news.</p>
+  <p>      
+  <label class="formCol"><b>Name</b></label>
+  <input class="w3-input w3-border" placeholder="Your Full Name" name="name" type="text" required>
+  </p>
+  <p>      
+  <label class="formCol"><b>Email</b></label>
+  <input class="w3-input w3-border" placeholder="Your Email Address" name="email" type="text" required>
+  </p>
+  
+  <p>     
+  <label class="formCol"><b>Phone Number</b></label>
+  <input class="w3-input w3-border" placeholder="Your Phone Number" name="phone" type="text" required>
+  </p>
+  <p>      
+  <button class="formColB" type="submit" >Sign Up </button></p>
+</form>
+
+
+
+
+
+
+     
+
+
+
+<!-- quiz portion -->
+
+      <br><br>
+       <div style = "text-align:center"><a class="active" href="form.html">
+          <button id="quizButton" class = "btn-primary" href="form.html">Test Your Knowledge With Our Quiz!       
+          </button></a>
+      </div> 
+    
+    </div>
+    
+       <section class="below-the-fold">
+      <h2 class="media-title"></h2>
+      <section class="media">
+        <!--   👋  You can change the src to any of the photos here: https://bit.ly/kwk-el-assets. 
+        Make sure to add them to the "assets" folder of your Glitch project and copy the 
+        link Glitch gives you. -->
+        <!--         <img
+          class="media-1"
+          alt="Add you alt text here"
+          src="https://cdn.glitch.com/94beb1ea-a866-4370-9dd5-e628c1515a23%2FUGC-pc-5.jpg?v=1590594725416"
+        /> -->
+        <section class="pics">
+          <!--   👋  You can choose to keep this video, 
+          or remove it and use the one below that is commented out -->
+<!--           <iframe
+            class="media-2"
+            width="840px"
+            height="472.5px"
+            src="https://www.youtube.com/embed/TX50UTe__i4"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe> -->
+
+          <!--  👋  This is the second video option!  -->
+          <!--   <iframe
+            class="media-2"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/jHvplDfZbU0"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe> -->
+          <img
+               class="media-2"
+               width="472"
+               height="472"
+               src="https://cdn.glitch.global/c6f964c0-1500-4649-8e07-5d6a0ae4f4b1/IMG_0103.jpg?v=1648332773341"
+               
+              />
+
+          <!--   👋  You can change the src to any of the photos here: https://bit.ly/kwk-el-assets. 
+          Make sure to add them to the "assets" folder of your Glitch project and copy the 
+          link Glitch gives you. -->
+          <section class="lipsticks">
+            <img
+              class="media-3"
+              width="230px"
+              height="230px"
+              alt="Add you alt text here"
+              src="https://cdn.glitch.global/c6f964c0-1500-4649-8e07-5d6a0ae4f4b1/IMG_0101.jpg?v=1648331986877"
+            />
+            <img
+              class="media-4"
+              width="230px"
+              height="230px"
+              alt="Add you alt text here"
+              src="https://cdn.glitch.global/c6f964c0-1500-4649-8e07-5d6a0ae4f4b1/IMG_0100.jpg?v=1648331954566"
+            />
+          </section>
+          <section class="lipsticks">
+            <img
+              class="media-3"
+              width="230px"
+              height="230px"
+              alt="Add you alt text here"
+              src="https://cdn.glitch.global/c6f964c0-1500-4649-8e07-5d6a0ae4f4b1/IMG_0101%202.jpg?v=1648331977402"
+            />
+            <img
+              class="media-4"
+              width="230px"
+              height="230px"
+              alt="Add you alt text here"
+              src="https://cdn.glitch.global/c6f964c0-1500-4649-8e07-5d6a0ae4f4b1/Screen%20Shot%202022-03-26%20at%204.15.36%20PM.png?v=1648325747906"
+            />
+          </section>
+        </section>
+      </section>
+    </section>
+    
+    <!-- The footer holds our remix button — you can use it for structure or cut it out ✂ -->
+    <footer class="footer">
+      <div class="links">
+        <div class="partners">
+          <a href="https://www.dontshake.org/new-jersey ">
+           <img src="https://cdn.glitch.global/c6f964c0-1500-4649-8e07-5d6a0ae4f4b1/IMG_0326-removebg-preview.png?v=1648335732988" />
+       
+          </a>
+<!--           <a href= -->
+          <a href="https://www.clickforbabies.org/ ">     
+            <img src="https://cdn.glitch.global/c6f964c0-1500-4649-8e07-5d6a0ae4f4b1/IMG_0328-removebg-preview.png?v=1648335864725" />
+      
+          </a>
+          <a href="https://www.preventchildabusenj.org/what-we-do/programs/period-of-purple-crying/"> 
+            <img src="https://cdn.glitch.global/c6f964c0-1500-4649-8e07-5d6a0ae4f4b1/IMG_0327-removebg-preview.png?v=1648335943763" />
+     
+          </a>
+       
+        </div>
+        <div>
+        <a  class="footer-icons" href="purplehatproject@gmail.com"
+          ><span
+            class="iconify"
+            data-icon="clarity:email-line"
+            style="color: white"
+            data-width="40"
+          ></span
+         
+        > purplehatproject@gmail.com
+</a>
+          
+        </div>
+        <div>
+        <a
+          class="footer-icons"
+          href="https://www.instagram.com/purplehats.pcanj/">
+          <span
+            class="iconify"
+            data-icon="fa6-brands:instagram"
+            style="color: white"
+            data-width="34"
+          ></span
+        >@purplehats.pcanj</a>
+          
+        </div>
+        </div>
+    </footer>
+  </body>
+</html>

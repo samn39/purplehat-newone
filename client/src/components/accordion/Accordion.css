@@ -1,0 +1,42 @@
+.app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5%;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .sign {
+    font-size: 25px;
+  }
+  .accordian {
+  
+    width: 100%;
+    /* margin:1px; */
+    /* border: 1px solid rgb(133, 133, 133); */
+  }
+  .accordian-header {
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 15px;
+    background: linear-gradient(45deg, #564da0, rgb(158 125 202));
+  }
+
+  .accordian-header:hover{
+    background: linear-gradient(45deg, rgb(158 125 202), #564da0);
+  }
+ 
+  .accordian-body {
+    font-weight: 550;
+    color: #4e4594;
+    padding: 20px 20px;
+    background-color: #d5c7f2;
+  }
+
+

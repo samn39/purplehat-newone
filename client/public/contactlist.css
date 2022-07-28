@@ -1,0 +1,48 @@
+
+.contactlist {
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+    
+  table {
+    margin-top: 20px;
+    background: linear-gradient(45deg, #564da0, rgb(158 125 202));
+    width: 50%;
+    height: 20%;
+    border-radius: 20px;
+  }
+    
+  th {
+    border-bottom: 1px solid white;
+  
+    
+  }
+    
+  td {
+    text-align: center;
+    padding: 10px;
+
+  }
+
+  button.delete{
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: #ffffff;
+  }
+
+  @media screen and (max-width: 500px){
+    .contactlist{
+      font-size: 10px;
+      
+    }
+    table{
+      width:100%;
+      border-radius: 10px;
+    }
+  }
