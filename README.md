@@ -2,11 +2,11 @@
 
 dependencies to install with npm or yarn
 
-"body-parser": "^1.20.0",
+    "body-parser": "^1.20.0",
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "pg": "^8.7.3"
-    
+   
      "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
